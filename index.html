@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="img" href="./images/logo.png" />
+    <title>Coffee</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:wght@100;300;400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="./CSS/all.css" />
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+  </head>
+  <body>
+    <div id="loader"></div>
+    <div id="content" style="display: none">
+      <h1>Saytga xush kelibsiz!</h1>
+    </div>
+    <header class="header">
+      <a href="#home" class="logo"
+        ><img loading="lazy" src="./images/logo.png" alt="Logo"
+      /></a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#blog">Blog</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+    <a href="" class="btn checkout">Checkout Now</a>
+        
+      </div>
+    </header>
+
+    <main>
+      <!-- Home -->
+      <section class="home lazy-section hidden" id="home">
+        <div class="content">
+          <h3>A fresh start with coffee</h3>
+          <p>
+            Discover the rich flovers and aromas of freshly brewed coffee.
+            Experience a cup that truly awakens the senses.
+          </p>
+          <a href="" class="btn">Get Yours Now</a>
+        </div>
+      </section>
+      <!-- About -->
+      <section class="about lazy-section hidden" id="about">
+        <h1 class="heading"><span>About</span>us</h1>
+
+        <div class="row">
+          <div class="image">
+            <img
+              loading="lazy"
+              src="./images/about-img.jpeg"
+              alt="About Image"
+            />
+          </div>
+
+          <div class="content">
+            <h3>What makes our coffee extraordinary</h3>
+            <p>
+              Our coffee is more than a drink; It's an experience. Soueced from
+              the finest beans and roasted to perfection, each cup is a
+              celebration of rich, bold flovords and a smooth finish.
+            </p>
+            <p>
+              We believe in sustainability and quality, partnering with farmers
+              who share our commitment to the environment and exceptional taste.
+              Join us a journey of flavor with every cup.
+            </p>
+            <a href="" class="btn">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <!-- Menu -->
+       <section class="menu" id="menu">
+          <h1 class="heading">Our <span>Menu</span></h1>
+          <div class="box-container"></div>
+       </section>
+       <!-- Products -->
+        <section class="products" id="products">
+             <h1 class="heading">Our <span>Products</span></h1>
+
+             <div class="box-container">
+               <div class="box">
+                    <div class="icons">
+                         <a href="" class="fas fa-shopping-cart"></a>
+                         <a href="" class="fas fa-heart"></a>
+                         <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                         <img loading="lazy" src="./images/p1.png" alt="Image Bor">
+                    </div>
+
+                    <div class="content">
+                         <h3>Coffee Product</h3>
+                         <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="price">$10.99 <span>15.99</span></div>
+                    </div>
+               </div>
+
+               <div class="box">
+                    <div class="icons">
+                         <a href="" class="fas fa-shopping-cart"></a>
+                         <a href="" class="fas fa-heart"></a>
+                         <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                         <img loading="lazy" src="./images/p2.webp" alt="Image Bor">
+                    </div>
+
+                    <div class="content">
+                         <h3>Coffee Product</h3>
+                         <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="price">$10.99 <span>15.99</span></div>
+                    </div>
+               </div>
+
+               <div class="box">
+                    <div class="icons">
+                         <a href="" class="fas fa-shopping-cart"></a>
+                         <a href="" class="fas fa-heart"></a>
+                         <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                         <img loading="lazy" src="./images/p3.png" alt="Image Bor">
+                    </div>
+
+                    <div class="content">
+                         <h3>Coffee Product</h3>
+                         <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="price">$10.99 <span>15.99</span></div>
+                    </div>
+               </div>
+
+               <div class="box">
+                    <div class="icons">
+                         <a href="" class="fas fa-shopping-cart"></a>
+                         <a href="" class="fas fa-heart"></a>
+                         <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                         <img loading="lazy" src="./images/p4.png" alt="Image Bor">
+                    </div>
+
+                    <div class="content">
+                         <h3>Coffee Product</h3>
+                         <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="price">$10.99 <span>15.99</span></div>
+                    </div>
+               </div>
+
+               <div class="box">
+                    <div class="icons">
+                         <a href="" class="fas fa-shopping-cart"></a>
+                         <a href="" class="fas fa-heart"></a>
+                         <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                         <img loading="lazy" src="./images/p5.png" alt="Image Bor">
+                    </div>
+
+                    <div class="content">
+                         <h3>Coffee Product</h3>
+                         <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="price">$10.99 <span>15.99</span></div>
+                    </div>
+               </div>
+
+               <div class="box">
+                    <div class="icons">
+                         <a href="" class="fas fa-shopping-cart"></a>
+                         <a href="" class="fas fa-heart"></a>
+                         <a href="" class="fas fa-eye"></a>
+                    </div>
+
+                    <div class="image">
+                         <img loading="lazy" src="./images/p6.png" alt="Image Bor">
+                    </div>
+
+                    <div class="content">
+                         <h3>Coffee Product</h3>
+                         <div class="stars">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                         </div>
+                         <div class="price">$10.99 <span>15.99</span></div>
+                    </div>
+               </div>
+             </div>
+        </section>
+        <!-- Review -->
+         <section class="review" id="review">
+            <h1 class="heading">Customer's <span>Review</span></h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <img loading="lazy" src="./images/quote-img.png" alt="Quote Image">
+                    <p>
+                         This coffee is amazing! The arome alone wakes me up, and the flavor is rich and smooth.
+                         I've tried many brands, but this one truly stands out for its quality and taste. Highly 
+                         recommended for  any coffee lover!
+                    </p>
+                    <img loading="lazy" src="./images/pic-1.png" class="user" alt="Pic 1">
+                    <h3>John Doe</h3>
+                    <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img loading="lazy" src="./images/quote-img.png" alt="Quote Image">
+                    <p>
+                         This coffee is amazing! The arome alone wakes me up, and the flavor is rich and smooth.
+                         I've tried many brands, but this one truly stands out for its quality and taste. Highly 
+                         recommended for  any coffee lover!
+                    </p>
+                    <img loading="lazy" src="./images/pic-2.png" class="user" alt="Pic 2">
+                    <h3>John Doe</h3>
+                    <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img loading="lazy" src="./images/quote-img.png" alt="Quote Image">
+                    <p>
+                         This coffee is amazing! The arome alone wakes me up, and the flavor is rich and smooth.
+                         I've tried many brands, but this one truly stands out for its quality and taste. Highly 
+                         recommended for  any coffee lover!
+                    </p>
+                    <img loading="lazy" src="./images/pic-3.png" class="user" alt="Pic 3">
+                    <h3>John Doe</h3>
+                    <div class="stars">
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                         <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+            </div>
+         </section>
+         <!-- Contact -->
+          <section class="contact" id="contact">
+               <h1 class="heading"><span>Contact</span> us</h1>
+
+               <div class="row">
+                    <form action="">
+                         <h3>Get in Touch</h3>
+                         <div class="inputBox">
+                              <span class="fas fa-user"></span>
+                              <input type="text" placeholder="Name">
+                         </div>
+                         <div class="inputBox">
+                              <span class="fas fa-envelope"></span>
+                              <input type="email" placeholder="Email">
+                         </div>
+                         <div class="inputBox">
+                              <span class="fas fa-phone"></span>
+                              <input type="number" placeholder="Number">
+                         </div>
+                         <input type="submit" value="contact now" class="btn">
+                    </form>                    
+               </div>
+          </section>
+          <!-- Blog -->
+           <section class="blog" id="blog">
+               <h1 class="heading">Our <span>Blog</span></h1>
+
+               <div class="box-container">
+
+                    <div class="box">
+                         <div class="image">
+                              <img loading="lazy" src="./images/blog-1.jpeg" alt="Blog Image 1">
+                         </div>
+                         <div class="content">
+                              <a href="" class="title">Tasty and refreshing coffee</a>
+                              <span>by admin / 13th Nov, 2024</span>
+                              <p>Discover the art of brewing a perfect cup and learn about unique coffee flavors that invigorate the senses.</p>
+                              <a href="" class="btn">Read More</a>
+                         </div>
+                    </div>
+                    <div class="box">
+                         <div class="image">
+                              <img loading="lazy" src="./images/blog-2.jpeg" alt="Blog Image 2">
+                         </div>
+                         <div class="content">
+                              <a href="" class="title">Tasty and refreshing coffee</a>
+                              <span>by admin / 13th Nov, 2024</span>
+                              <p>Discover the art of brewing a perfect cup and learn about unique coffee flavors that invigorate the senses.</p>
+                              <a href="" class="btn">Read More</a>
+                         </div>
+                    </div>
+                    <div class="box">
+                         <div class="image">
+                              <img loading="lazy" src="./images/blog-3.jpeg" alt="Blog Image 3">
+                         </div>
+                         <div class="content">
+                              <a href="" class="title">Tasty and refreshing coffee</a>
+                              <span>by admin / 13th Nov, 2024</span>
+                              <p>Discover the art of brewing a perfect cup and learn about unique coffee flavors that invigorate the senses.</p>
+                              <a href="" class="btn">Read More</a>
+                         </div>
+                    </div>
+               </div>
+           </section>
+    </main>
+    <footer class="footer">
+               <div class="share">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin-in"></a>
+                    <a href="" class="fab fa-pinterest"></a>
+               </div>
+               <div class="links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#products">Products</a>
+                    <a href="#review">Review</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#blog">Blog</a>
+               </div>
+
+               <div class="credit">Created by <span>Mr. Frontend Developer</span> | all rights reserved!</div>
+    </footer>
+  </body>
+  <script defer src="./js/app.js"></script>
+</html>

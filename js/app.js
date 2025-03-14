@@ -4,7 +4,7 @@ const cartMenu = document.querySelector(".cart-items-container")
 const products = [
     {
         id: 0,
-        img: "../images/menu-1.png",
+        img: "./images/menu-1.png",
         title: "Tasty and healthy",
         price: {
             new: 10.99,
@@ -13,7 +13,7 @@ const products = [
     },
     {
         id: 1,
-        img: "../images/menu-2.png",
+        img: "./images/menu-2.png",
         title: "Tasty and healthy",
         price: {
             new: 10.99,
@@ -22,7 +22,7 @@ const products = [
     },
     {
         id: 2,
-        img: "../images/menu-3.png",
+        img: "./images/menu-3.png",
         title: "Tasty and healthy",
         price: {
             new: 10.99,
@@ -31,7 +31,7 @@ const products = [
     },
     {
         id: 3,
-        img: "../images/menu-4.png",
+        img: "./images/menu-4.png",
         title: "Tasty and healthy",
         price: {
             new: 10.99,
@@ -40,7 +40,7 @@ const products = [
     },
     {
         id: 4,
-        img: "../images/menu-5.png",
+        img: "./images/menu-5.png",
         title: "Tasty and healthy",
         price: {
             new: 10.99,
@@ -49,7 +49,7 @@ const products = [
     },
     {
         id: 5,
-        img: "../images/menu-6.png",
+        img: "./images/menu-6.png",
         title: "Tasty and healthy",
         price: {
             new: 10.99,
